@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Validador de CPF</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+	<link  rel="stylesheet" type="text/css" href="/css/style.css">
+</head>
+
+<body>
+
+
+    <h1>QA Tester</h1> 
+	<br>
+	<form action="/valida-cpf" method="GET" onsubmit="return validaCampos()">
+		<div class="form-group">
+			<label for="exampleInputNome">Nome</label>
+			<input type="text" class="form-control" id="nome" name="nome" aria-describedby="NomeHelp"
+				placeholder="Adicionar Nome">
+			<small id="NomeHelp" class="form-text text-muted"></small>
+		</div>
+		<br>
+		<div class="form-group">
+			<label for="exampleInputCpf">CPF</label>
+			<input type="text" class="form-control" id="cpf" name="cpf" placeholder="Cpf">
+		</div>
+		<br>
+		<button type="submit" class="btn btn-primary">Enviar</button>
+
+		</div>
+		</div>
+		</div>
+	</form>
+</body>
+
+</html>
